@@ -1,0 +1,6 @@
+Farmacia Tei,1010,10
+Farmacia Dona,1020,7
+Farmacia Richtr,1030,4
+Farmacia Universitara,1040,2
+Farmacia HelpNet,1050,4
+BebeTei,1060,16
