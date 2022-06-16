@@ -34,7 +34,7 @@ struct nodAB* inserare_arbBin(struct nodAB* rootAB, struct Farmacie k)
 	}
 	else
 	{
-		struct nodAB* nou = (struct nodAB*)malloc(1 * sizeof(struct nodAB));
+		struct nodAB* nou = (struct nodAB*)malloc(sizeof(struct nodAB) * 1);
 		nou->info = k;
 		nou->st = NULL;
 		nou->dr = NULL;
