@@ -42,13 +42,13 @@ struct nodAB* inserare_arbBin(struct nodAB* rootAB, struct Farmacie k)
 	}
 }
 
-void inordine(struct nodAB* root)
+void inpost_ordine(struct nodAB* root)
 {
 	if (root)
 	{
-		inordine(root->st);
+		inpost_ordine(root->st);
+		inpost_ordine(root->dr);
 		printf("\n\t#ID%d %s cu %d angajati!", root->info.id, root->info.denumire, root->info.personal);
-		inordine(root->dr);
 	}
 }
 
@@ -82,7 +82,7 @@ void main()
 	fclose(file);
 
 	printf("\nArborele dupa creare:");
-	inordine(root);
+	inpost_ordine(root);
 	printf("\n\n");
 }
 //
