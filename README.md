@@ -1,2 +1,2 @@
-# Arbore-binar-de-cautare
-school
+# arbore-binar-de-cautare
+School
