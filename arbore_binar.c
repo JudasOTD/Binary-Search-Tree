@@ -1,8 +1,8 @@
 #pragma warning(disable:4996)
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
 #include <malloc.h>
+#include <string.h>
 
 struct Farmacie
 {
@@ -51,6 +51,7 @@ void inpost_ordine(struct nodAB* root)
 		printf("\n\t#ID%d %s cu %d angajati!", root->info.id, root->info.denumire, root->info.personal);
 	}
 }
+
 
 void main()
 {
